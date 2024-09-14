@@ -24,5 +24,14 @@ namespace Git
         {
             InitializeComponent();
         }
+
+        //var 10
+        private void rez_Click(object sender, RoutedEventArgs e)
+        {
+            int x = int.Parse(abx.Text);
+            int y = int.Parse(bbx.Text);
+            double rez = Math.Pow(2, -x) - Math.Cos(x) + Math.Sin(2 * x * y);
+            rezlb.Content = $"{rez}";
+        }
     }
 }

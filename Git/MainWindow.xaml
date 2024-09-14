@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Git"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Pr2" Height="450" Width="800">
     <Grid>
-        
+        <Button Click="rez_Click" Margin="581,347,10,10"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,58,0,0" x:Name="abx" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="249,58,0,0" x:Name="bbx" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="x" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top"/>
+        <Label Content="y" HorizontalAlignment="Left" Margin="249,27,0,0" VerticalAlignment="Top"/>
+        <Label Content="rez" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top"/>
+        <Label Content="" x:Name="rezlb" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top" Width="148"/>
     </Grid>
 </Window>
